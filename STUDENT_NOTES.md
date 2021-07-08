@@ -124,3 +124,31 @@ Summary
 > Final cost:          0.03312703 ETH
 
 ```
+
+### Testing the contract
+
+```
+truffle(develop)> test
+Using network 'develop'.
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+  ✓ can Create a Star (836ms)
+  ✓ lets user1 put up their star for sale (659ms)
+  ✓ lets user1 get the funds after the sale (1123ms)
+  ✓ lets user2 buy a star, if it is put up for sale (905ms)
+  ✓ lets user2 buy a star and decreases its balance in ether (958ms)
+  ✓ can add the star name and star symbol properly (851ms)
+  ✓ lets 2 users exchange stars (1761ms)
+  ✓ lets a user transfer a star (1028ms)
+  ✓ lookUptokenIdToStarInfo test (475ms)
+  ✓ approveTransfer test (471ms)
+
+  10 passing (9s)
+
+```
