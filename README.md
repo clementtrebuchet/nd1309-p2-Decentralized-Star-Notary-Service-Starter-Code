@@ -8,6 +8,7 @@
 - ERC-721 Token Symbol: SNY
 - Contact on [EtherScan:0xded0e424b1a6dbc3bf1d4a99bb4bc99ad98c0502](https://rinkeby.etherscan.io/address/0xded0e424b1a6dbc3bf1d4a99bb4bc99ad98c0502)
 - Please see the [STUDENT_NOTES.md](./STUDENT_NOTES.md)
+- [Decompiled code on EtherScan](https://rinkeby.etherscan.io/bytecode-decompiler?a=0xded0e424b1a6dbc3bf1d4a99bb4bc99ad98c0502)
 
 **PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
 
