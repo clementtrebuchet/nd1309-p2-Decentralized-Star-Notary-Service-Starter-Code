@@ -1,4 +1,14 @@
-# ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter 
+# ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter
+
+### Student Project Information
+
+- Truffle version: v5.3.12 (core: 5.3.12)
+- OpenZeppelin version: 4.2.0
+- ERC-721 Token Name: starNotary
+- ERC-721 Token Symbol: SNY
+- Contact on [EtherScan:0x894a68a23A4d12638F90F8cA2cf21622C3d0F301](https://rinkeby.etherscan.io/address/0x894a68a23A4d12638F90F8cA2cf21622C3d0F301)
+- Please see the [STUDENT_NOTES.md](./STUDENT_NOTES.md)
+
 **PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
 
 ### ToDo

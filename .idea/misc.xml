@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7" project-jdk-type="Python SDK" />
+  <component name="WebPackConfiguration">
+    <option name="mode" value="DISABLED" />
+  </component>
+  <component name="accountSettings">
+    <option name="activeRegion" value="eu-west-1" />
+    <option name="recentlyUsedProfiles">
+      <list>
+        <option value="profile:default" />
+      </list>
+    </option>
+    <option name="recentlyUsedRegions">
+      <list>
+        <option value="eu-west-1" />
+      </list>
+    </option>
+  </component>
+</project>

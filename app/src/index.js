@@ -26,8 +26,8 @@ const App = {
     }
   },
 
-  setStatus: function(message) {
-    const status = document.getElementById("status");
+  setStatus: function(message, element) {
+    const status = document.getElementById(element);
     status.innerHTML = message;
   },
 
@@ -41,7 +41,25 @@ const App = {
 
   // Implement Task 4 Modify the front end of the DAPP
   lookUp: async function (){
-    
+    const { lookUptokenIdToStarInfo } = this.meta.methods;
+    // symbol and name are directly bound from the ECR721 contract interface
+    // function name() public view virtual override returns (string memory) {
+    //         return _name;
+    //     }
+    const { symbol } = this.meta.methods;
+    const { name } = this.meta.methods;
+    const startId = document.getElementById("lookid").value;
+    const starName = await lookUptokenIdToStarInfo(parseInt(startId)).call();
+    const _symbol = await symbol().call();
+    const _name = await name().call();
+    if (starName === "") {
+        App.setStatus("No Star Found","status");
+    } else {
+       App.setStatus("Star Information ","status");
+       App.setStatus("Star id: " + startId + " - Star Name: " + starName,"starNamed");
+       App.setStatus("Token Name: " + _name, "tokenName");
+       App.setStatus("Token Symbol: " + _symbol, "symbol");
+    }
   }
 
 };
