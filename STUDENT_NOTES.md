@@ -1,6 +1,6 @@
 # Deploying the contract on rinkeby
 
-check the contact on [EtherScan](https://rinkeby.etherscan.io/address/0x894a68a23A4d12638F90F8cA2cf21622C3d0F301)
+check the contact on [EtherScan](https://rinkeby.etherscan.io/address/0xded0e424b1a6dbc3bf1d4a99bb4bc99ad98c0502)
 
 ```
 [clementtrebuchet@clemozore nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code]$  truffle migrate --reset --network rinkeby
